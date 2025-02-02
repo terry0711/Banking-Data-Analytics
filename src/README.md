@@ -1,6 +1,6 @@
-# Banking Data Analysis Project – American Express
+# Banking Data Analysis Project 
 
-## 🎯 Project Objectives
+##  Project Objectives
 - Analyze customer spending patterns.
 - Detect fraudulent transactions using a machine learning model.
 - Visualize data with SQL queries and dashboards in Power BI/Tableau.
@@ -28,18 +28,4 @@ python ml_model.py
 ### 3️⃣ Run SQL Queries
 Use any SQL database system to execute the queries from `sql_queries.sql`.
 
-## 📌 Uploading to GitHub
-```bash
-git init
-git add .
-git commit -m "Banking Data Analysis Project"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/Banking-Data-Analysis.git
-git push -u origin main
-```
-
-## 🚀 Next Steps
-- Create a Power BI / Tableau Dashboard.
-- Improve fraud detection accuracy with XGBoost.
-- Deploy as a web app using Flask.
 
