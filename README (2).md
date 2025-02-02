@@ -117,3 +117,4 @@ or execute queries in **MySQL/PostgreSQL**.
 
 ---
 
+Composed by Terry Bongben
