@@ -94,27 +94,4 @@ This project focuses on analyzing customer transactions, detecting fraudulent ac
 
 ---
 
-## ** How to Run the Project**
-###  **Step 1: Install Dependencies**
-```bash
-pip install -r requirements.txt
-```
-###  **Step 2: Run Python Scripts**
-```bash
-python scripts/data_preparation.py
-python scripts/eda_analysis.py
-python scripts/ml_model.py
-```
-###  **Step 3: Run SQL Queries**
-```bash
-sqlite3 banking.db < sql/sql_queries.sql
-```
-or execute queries in **MySQL/PostgreSQL**.
-
-### **Step 4: Open Dashboard in Power BI / Tableau**
-- Import `banking_transactions.csv`
-- Use SQL query results to create visualizations.
-
----
-
 Composed by Terry Bongben
