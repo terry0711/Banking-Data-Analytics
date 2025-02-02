@@ -1,7 +1,7 @@
 # Steps to Run Banking Data Analysis Project in Anaconda & VS Code
 
-## **1️⃣ Set Up Anaconda Environment in VS Code**
-### ✅ Step 1: Open Anaconda Prompt
+## **1 I used the Anaconda Environment in VS Code**
+###  Step 1: If Anaconda is installed on your machine, Open Anaconda Prompt
 1. Press **Win + S**, type **"Anaconda Prompt"**, and open it.
 2. Create a new Python environment (or use an existing one):
    ```bash
@@ -14,7 +14,7 @@
 
 ---
 
-## **2️⃣ Install Required Libraries**
+## **2 Install Required Libraries**
 Once inside the activated environment, **install the necessary dependencies**:
 ```bash
 conda install pandas numpy matplotlib seaborn scikit-learn sqlite
@@ -22,7 +22,7 @@ conda install pandas numpy matplotlib seaborn scikit-learn sqlite
 
 ---
 
-## **3️⃣ Open VS Code & Select Anaconda Environment**
+## **3 Open VS Code & Select Anaconda Environment**
 1. Open **VS Code**.
 2. Press **Ctrl + Shift + P** to open the **Command Palette**.
 3. Type **"Python: Select Interpreter"** and press **Enter**.
@@ -32,52 +32,52 @@ Now, VS Code will use the **Anaconda environment** for running scripts.
 
 ---
 
-## **4️⃣ Run the Python Scripts**
+## **4 Run the Python Scripts**
 Once everything is set up, **run the scripts in order**.
 
-### ✅ Step 1: Open VS Code Terminal
+###  Step 1: Open VS Code Terminal
 In VS Code, press **Ctrl + `** to open the terminal.
 
-### ✅ Step 2: Navigate to the Project Folder
+###  Step 2: Navigate to the Project Folder
 ```bash
 cd path/to/Banking-Data-Analysis
 ```
 
-### ✅ Step 3: Run Each Script
+###  Step 3: Run Each Script
 
-#### **1️⃣ Run Data Preprocessing**
+#### **1 Run Data Preprocessing**
 ```bash
 python scripts/data_preparation.py
 ```
-✔ This **cleans and preprocesses the dataset**.
+ This **cleans and preprocesses the dataset**.
 
-#### **2️⃣ Run Exploratory Data Analysis (EDA)**
+#### **2 Run Exploratory Data Analysis (EDA)**
 ```bash
 python scripts/eda_analysis.py
 ```
-✔ This **generates fraud insights & visualizations**.
+This **generates fraud insights & visualizations**.
 
-#### **3️⃣ Run the Machine Learning Model**
+#### **3 Run the Machine Learning Model**
 ```bash
 python scripts/ml_model.py
 ```
-✔ This **trains and evaluates the fraud detection model**.
+ This **trains and evaluates the fraud detection model**.
 
 ---
 
-## **5️⃣ Run SQL Queries**
-If you're using SQLite to run the SQL Queries following these steps: 
+## **5 Run SQL Queries**
+I used SQLite to run the SQL Queries following these steps: 
 
-### ✅ Step 1: Open SQLite
+###  Step 1: Open SQLite
 ```bash
 sqlite3 banking.db
 ```
-### ✅ Step 2: Import CSV Data into SQLite
+###  Step 2: Import CSV Data into SQLite
 ```sql
 .mode csv
 .import banking_transactions.csv Transactions
 ```
-### ✅ Step 3: Run SQL Queries
+###  Step 3: Run SQL Queries
 Execute the queries from `sql_queries.sql`:
 ```bash
 .read sql/sql_queries.sql
@@ -89,7 +89,7 @@ SELECT * FROM Transactions WHERE Is_Fraud = 1;
 
 ---
 
-## **6️⃣ Open Power BI / Tableau & Load Data**
+## **6 Open Power BI / Tableau & Load Data**
 1. **Import `banking_transactions.csv` into Power BI or Tableau.**
 2. **Use SQL queries to generate visualizations**:
    - **Fraud hotspots (heatmap)**
@@ -98,11 +98,4 @@ SELECT * FROM Transactions WHERE Is_Fraud = 1;
 
 ---
 
-## **🚀 Next Steps**
-✅ **You’re now ready to run the project in Anaconda & VS Code!**  
-Would you like to:  
-1️⃣ **Deploy the fraud detection model as an API using Flask?** 🌐  
-2️⃣ **Automate fraud alerts via email/SMS notifications?** 📩  
-3️⃣ **Improve fraud detection with Deep Learning?** 🤖  
 
-Let me know what you’d like to focus on next! 🚀🔥
