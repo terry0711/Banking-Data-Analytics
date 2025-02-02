@@ -1,6 +1,6 @@
-# Banking Data Analysis Project – American Express
+## Banking Data Analysis Project 
 
-## 🎯 Project Objectives
+## Project Objectives
 This project focuses on analyzing customer transactions, detecting fraudulent activities, and understanding spending behavior—critical areas for financial institutions like American Express.
 
 ### * Key Goals:**
@@ -10,8 +10,8 @@ This project focuses on analyzing customer transactions, detecting fraudulent ac
 
 ---
 
-## **📂 Project Structure**
-| 📂 Folder | 📌 Description |
+## ** Project Structure**
+|  Folder |  Description |
 |-----------|--------------|
 | `data/` | Contains the dataset and cleaned data |
 | `scripts/` | Python scripts for data preprocessing, EDA, and machine learning |
@@ -23,7 +23,7 @@ This project focuses on analyzing customer transactions, detecting fraudulent ac
 ---
 
 ## **1 Data Collection & Preparation**
-### 📥 Dataset
+###  Dataset
 - **File:** `banking_transactions.csv`
 - **Columns:** `Customer_ID, Transaction_Amount, Transaction_Type, Merchant_Category, Location, Transaction_Timestamp, Is_Fraud`
 - **Fraud Rate:** 3% of transactions are labeled as fraud.
@@ -37,7 +37,7 @@ This project focuses on analyzing customer transactions, detecting fraudulent ac
 
 ---
 
-## **2️ SQL Data Analysis**
+## **2 SQL Data Analysis**
 ### **Key SQL Queries (Stored in `sql_queries.sql`)**
 1. **Top Spending Categories**
    ```sql
@@ -65,7 +65,7 @@ This project focuses on analyzing customer transactions, detecting fraudulent ac
 
 ---
 
-## **3️ Exploratory Data Analysis (EDA)**
+## **3 Exploratory Data Analysis (EDA)**
 - **Visualized spending patterns & fraud trends** (`eda_analysis.py`)
 - **Charts Created:**
   - Fraud vs. Non-Fraud Transactions (Bar Chart)
@@ -75,7 +75,7 @@ This project focuses on analyzing customer transactions, detecting fraudulent ac
 
 ---
 
-## **4️ Fraud Detection Model (Machine Learning)**
+## **4 Fraud Detection Model (Machine Learning)**
 - **Model:** Random Forest & XGBoost (`ml_model.py`)
 - **Performance Metrics:**
   - Precision, Recall, F1-score, and AUC-ROC
@@ -83,7 +83,7 @@ This project focuses on analyzing customer transactions, detecting fraudulent ac
 
 ---
 
-## **5️ Power BI / Tableau Dashboard**
+## **5 Power BI / Tableau Dashboard**
 - **Dashboards Stored in `dashboards/`**
 - **Visuals Included:**
   - Spending Trends by Merchant Category
