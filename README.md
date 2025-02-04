@@ -1,7 +1,7 @@
 ## Banking Data Analysis Project 
 
 ## Project Objectives
-This project focuses on analyzing customer transactions, detecting fraudulent activities, and understanding spending behavior—critical areas for financial institutions like American Express.
+This project focuses on analyzing customer transactions, detecting fraudulent activities, and understanding spending behavior—critical areas for financial institutions.
 
 ### * Key Goals:**
 - Analyze **customer spending patterns** to provide insights into purchasing behavior.
